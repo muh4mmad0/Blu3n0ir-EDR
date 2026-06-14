@@ -1,0 +1,28 @@
+# Mini EDR agent configuration.
+#
+# Run this agent only on machines you own or are explicitly authorized to
+# monitor.
+
+# Base URL of the Mini EDR backend.
+server_url: "http://localhost:8000"
+
+# How often (in seconds) each task runs.
+intervals:
+  heartbeat_seconds: 30
+  process_seconds: 60
+  file_integrity_seconds: 300
+
+# Files/directories to watch for changes. Any change to a watched file's
+# SHA-256 hash raises a "file_integrity" alert on the dashboard.
+#
+# Examples (uncomment/adjust for your OS):
+file_integrity:
+  paths: []
+    # Linux:
+    # - "/etc/hosts"
+    # - "/etc/passwd"
+    # - "/etc/ssh/sshd_config"
+    # Windows:
+    # - "C:\\Windows\\System32\\drivers\\etc\\hosts"
+    # macOS:
+    # - "/etc/hosts"

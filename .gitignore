@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Backend data
+backend/mini_edr.db
+
+# Agent state
+agent/agent_state.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
