@@ -1,5 +1,14 @@
 # Mini EDR — Endpoint Detection & Response Starter
 
+
+██████╗ ██╗ ██╗ ██╗██████╗ ███╗ ██╗ ██████╗ ██╗██████╗ ██╔══██╗██║ ██║
+██║╚════██╗████╗ ██║██╔═══██╗██║██╔══██╗ ██████╔╝██║ ██║ ██║
+█████╔╝██╔██╗ ██║██║ ██║██║██████╔╝ ██╔══██╗██║ ██║ ██║
+╚═══██╗██║╚██╗██║██║ ██║██║██╔══██╗ ██████╔╝███████╗╚██████╔╝██████╔╝██║
+╚████║╚██████╔╝██║██║ ██║ ╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝ ╚═══╝
+╚═════╝ ╚═╝╚═╝ ╚═╝
+
+
 A small, self-hostable Endpoint Detection and Response (EDR) platform you can
 run on machines **you own or are authorized to monitor**. It's meant as a
 learning project / portfolio piece that mirrors the architectural ideas
